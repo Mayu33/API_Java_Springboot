@@ -114,3 +114,123 @@
 2021-02-05 19:29:17.103  INFO 12456 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
 2021-02-05 19:29:17.131  INFO 12456 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8088 (http) with context path ''
 2021-02-05 19:29:17.133  INFO 12456 --- [restartedMain] b.c.p.produtos.ProdutosApplication       : Started ProdutosApplication in 0.607 seconds (JVM running for 165.499)
+2021-02-05 19:29:17.136  INFO 12456 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-02-05 19:29:17.140  INFO 12456 --- [cluster-rtt-ClusterId{value='601dc6bd27d27775708f588e', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:12, serverValue:11}] to localhost:27017
+2021-02-05 19:29:17.140  INFO 12456 --- [cluster-ClusterId{value='601dc6bd27d27775708f588e', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:11, serverValue:12}] to localhost:27017
+2021-02-05 19:29:17.140  INFO 12456 --- [cluster-ClusterId{value='601dc6bd27d27775708f588e', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=2, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=null, roundTripTimeNanos=53831900}
+2021-02-05 22:04:44.653  INFO 12456 --- [Thread-28] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-05 22:04:50.922  INFO 12456 --- [restartedMain] b.c.p.produtos.ProdutosApplication       : Starting ProdutosApplication using Java 15.0.1 on Alex-Mayara with PID 12456 (C:\Compasso\API_Java_Springboot\produtos\produtos\target\classes started by PC in C:\Compasso\API_Java_Springboot\produtos\produtos)
+2021-02-05 22:04:50.923  INFO 12456 --- [restartedMain] b.c.p.produtos.ProdutosApplication       : No active profile set, falling back to default profiles: default
+2021-02-05 22:04:51.270  INFO 12456 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-02-05 22:04:51.277  INFO 12456 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6 ms. Found 0 MongoDB repository interfaces.
+2021-02-05 22:04:51.820  INFO 12456 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8088 (http)
+2021-02-05 22:04:51.823  INFO 12456 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-02-05 22:04:51.823  INFO 12456 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-02-05 22:04:51.864  INFO 12456 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-02-05 22:04:51.865  INFO 12456 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 935 ms
+2021-02-05 22:04:51.958  INFO 12456 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-05 22:04:52.001  WARN 12456 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-02-05 22:04:52.019  INFO 12456 --- [restartedMain] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-02-05 22:04:52.046  INFO 12456 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-02-05 22:04:52.090  INFO 12456 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8088 (http) with context path ''
+2021-02-05 22:04:52.094  INFO 12456 --- [restartedMain] b.c.p.produtos.ProdutosApplication       : Started ProdutosApplication in 1.551 seconds (JVM running for 9500.46)
+2021-02-05 22:04:52.098  INFO 12456 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-02-05 22:04:53.142  INFO 12456 --- [cluster-rtt-ClusterId{value='601deb3427d27775708f588f', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:14, serverValue:13}] to localhost:27017
+2021-02-05 22:04:53.410  INFO 12456 --- [cluster-ClusterId{value='601deb3427d27775708f588f', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:13, serverValue:14}] to localhost:27017
+2021-02-05 22:04:53.411  INFO 12456 --- [cluster-ClusterId{value='601deb3427d27775708f588f', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=2, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=null, roundTripTimeNanos=1363224400}
+2021-02-05 22:05:41.697  INFO 12456 --- [Thread-33] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-05 22:05:41.785  INFO 12456 --- [restartedMain] b.c.p.produtos.ProdutosApplication       : Starting ProdutosApplication using Java 15.0.1 on Alex-Mayara with PID 12456 (C:\Compasso\API_Java_Springboot\produtos\produtos\target\classes started by PC in C:\Compasso\API_Java_Springboot\produtos\produtos)
+2021-02-05 22:05:41.785  INFO 12456 --- [restartedMain] b.c.p.produtos.ProdutosApplication       : No active profile set, falling back to default profiles: default
+2021-02-05 22:05:42.041  INFO 12456 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-02-05 22:05:42.148  INFO 12456 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 106 ms. Found 1 MongoDB repository interfaces.
+2021-02-05 22:05:42.300  INFO 12456 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8088 (http)
+2021-02-05 22:05:42.301  INFO 12456 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-02-05 22:05:42.302  INFO 12456 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-02-05 22:05:42.339  INFO 12456 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-02-05 22:05:42.339  INFO 12456 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 549 ms
+2021-02-05 22:05:42.415  INFO 12456 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-05 22:05:42.470  WARN 12456 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-02-05 22:05:42.484  INFO 12456 --- [restartedMain] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-02-05 22:05:42.511  INFO 12456 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-02-05 22:05:42.605  INFO 12456 --- [cluster-rtt-ClusterId{value='601deb6627d27775708f5890', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:16, serverValue:15}] to localhost:27017
+2021-02-05 22:05:42.770  INFO 12456 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8088 (http) with context path ''
+2021-02-05 22:05:42.843  INFO 12456 --- [cluster-ClusterId{value='601deb6627d27775708f5890', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:15, serverValue:16}] to localhost:27017
+2021-02-05 22:05:42.845  INFO 12456 --- [cluster-ClusterId{value='601deb6627d27775708f5890', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=2, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=null, roundTripTimeNanos=350839900}
+2021-02-05 22:05:42.851  INFO 12456 --- [restartedMain] b.c.p.produtos.ProdutosApplication       : Started ProdutosApplication in 1.106 seconds (JVM running for 9551.216)
+2021-02-05 22:05:42.855  INFO 12456 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-02-05 22:07:50.225  INFO 12456 --- [Thread-38] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-05 22:07:50.336  INFO 12456 --- [restartedMain] b.c.p.produtos.ProdutosApplication       : Starting ProdutosApplication using Java 15.0.1 on Alex-Mayara with PID 12456 (C:\Compasso\API_Java_Springboot\produtos\produtos\target\classes started by PC in C:\Compasso\API_Java_Springboot\produtos\produtos)
+2021-02-05 22:07:50.336  INFO 12456 --- [restartedMain] b.c.p.produtos.ProdutosApplication       : No active profile set, falling back to default profiles: default
+2021-02-05 22:07:50.555  INFO 12456 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-02-05 22:07:50.572  INFO 12456 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 16 ms. Found 1 MongoDB repository interfaces.
+2021-02-05 22:07:50.662  INFO 12456 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8088 (http)
+2021-02-05 22:07:50.663  INFO 12456 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-02-05 22:07:50.663  INFO 12456 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-02-05 22:07:50.692  INFO 12456 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-02-05 22:07:50.692  INFO 12456 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 352 ms
+2021-02-05 22:07:50.757  INFO 12456 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-05 22:07:50.794  WARN 12456 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-02-05 22:07:50.802  INFO 12456 --- [restartedMain] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-02-05 22:07:50.820  INFO 12456 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-02-05 22:07:50.866  INFO 12456 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8088 (http) with context path ''
+2021-02-05 22:07:50.870  INFO 12456 --- [restartedMain] b.c.p.produtos.ProdutosApplication       : Started ProdutosApplication in 0.57 seconds (JVM running for 9679.236)
+2021-02-05 22:07:50.872  INFO 12456 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-02-05 22:07:51.014  INFO 12456 --- [cluster-rtt-ClusterId{value='601debe627d27775708f5891', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:18, serverValue:17}] to localhost:27017
+2021-02-05 22:07:51.045  INFO 12456 --- [cluster-ClusterId{value='601debe627d27775708f5891', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:17, serverValue:18}] to localhost:27017
+2021-02-05 22:07:51.046  INFO 12456 --- [cluster-ClusterId{value='601debe627d27775708f5891', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=2, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=null, roundTripTimeNanos=236920600}
+2021-02-05 22:08:07.685  INFO 12456 --- [Thread-43] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-05 22:08:07.790  INFO 12456 --- [restartedMain] b.c.p.produtos.ProdutosApplication       : Starting ProdutosApplication using Java 15.0.1 on Alex-Mayara with PID 12456 (C:\Compasso\API_Java_Springboot\produtos\produtos\target\classes started by PC in C:\Compasso\API_Java_Springboot\produtos\produtos)
+2021-02-05 22:08:07.791  INFO 12456 --- [restartedMain] b.c.p.produtos.ProdutosApplication       : No active profile set, falling back to default profiles: default
+2021-02-05 22:08:08.027  INFO 12456 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-02-05 22:08:08.044  INFO 12456 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 15 ms. Found 1 MongoDB repository interfaces.
+2021-02-05 22:08:08.148  INFO 12456 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8088 (http)
+2021-02-05 22:08:08.150  INFO 12456 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-02-05 22:08:08.150  INFO 12456 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-02-05 22:08:08.179  INFO 12456 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-02-05 22:08:08.179  INFO 12456 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 385 ms
+2021-02-05 22:08:08.255  INFO 12456 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-05 22:08:08.289  WARN 12456 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-02-05 22:08:08.298  INFO 12456 --- [restartedMain] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-02-05 22:08:08.323  INFO 12456 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-02-05 22:08:08.366  INFO 12456 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8088 (http) with context path ''
+2021-02-05 22:08:08.369  INFO 12456 --- [restartedMain] b.c.p.produtos.ProdutosApplication       : Started ProdutosApplication in 0.613 seconds (JVM running for 9696.735)
+2021-02-05 22:08:08.370  INFO 12456 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-02-05 22:08:08.518  INFO 12456 --- [cluster-ClusterId{value='601debf827d27775708f5892', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:19, serverValue:19}] to localhost:27017
+2021-02-05 22:08:08.518  INFO 12456 --- [cluster-ClusterId{value='601debf827d27775708f5892', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=2, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=null, roundTripTimeNanos=214582599}
+2021-02-05 22:08:08.556  INFO 12456 --- [cluster-rtt-ClusterId{value='601debf827d27775708f5892', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:20, serverValue:20}] to localhost:27017
+2021-02-05 22:09:27.513  INFO 12456 --- [Thread-48] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-05 22:09:27.615  INFO 12456 --- [restartedMain] b.c.p.produtos.ProdutosApplication       : Starting ProdutosApplication using Java 15.0.1 on Alex-Mayara with PID 12456 (C:\Compasso\API_Java_Springboot\produtos\produtos\target\classes started by PC in C:\Compasso\API_Java_Springboot\produtos\produtos)
+2021-02-05 22:09:27.616  INFO 12456 --- [restartedMain] b.c.p.produtos.ProdutosApplication       : No active profile set, falling back to default profiles: default
+2021-02-05 22:09:27.805  INFO 12456 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-02-05 22:09:27.820  INFO 12456 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 14 ms. Found 1 MongoDB repository interfaces.
+2021-02-05 22:09:27.908  INFO 12456 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8088 (http)
+2021-02-05 22:09:27.909  INFO 12456 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-02-05 22:09:27.909  INFO 12456 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-02-05 22:09:27.945  INFO 12456 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-02-05 22:09:27.946  INFO 12456 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 327 ms
+2021-02-05 22:09:27.998  INFO 12456 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-05 22:09:28.030  WARN 12456 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-02-05 22:09:28.040  INFO 12456 --- [restartedMain] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-02-05 22:09:28.058  INFO 12456 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-02-05 22:09:28.092  INFO 12456 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8088 (http) with context path ''
+2021-02-05 22:09:28.096  INFO 12456 --- [restartedMain] b.c.p.produtos.ProdutosApplication       : Started ProdutosApplication in 0.52 seconds (JVM running for 9776.462)
+2021-02-05 22:09:28.097  INFO 12456 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-02-05 22:09:28.362  INFO 12456 --- [cluster-ClusterId{value='601dec4827d27775708f5893', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:21, serverValue:21}] to localhost:27017
+2021-02-05 22:09:28.362  INFO 12456 --- [cluster-ClusterId{value='601dec4827d27775708f5893', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=2, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=null, roundTripTimeNanos=316558400}
+2021-02-05 22:09:28.427  INFO 12456 --- [cluster-rtt-ClusterId{value='601dec4827d27775708f5893', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:22, serverValue:22}] to localhost:27017
+2021-02-05 22:12:42.241  INFO 12456 --- [Thread-53] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-05 22:12:42.330  INFO 12456 --- [restartedMain] b.c.p.produtos.ProdutosApplication       : Starting ProdutosApplication using Java 15.0.1 on Alex-Mayara with PID 12456 (C:\Compasso\API_Java_Springboot\produtos\produtos\target\classes started by PC in C:\Compasso\API_Java_Springboot\produtos\produtos)
+2021-02-05 22:12:42.330  INFO 12456 --- [restartedMain] b.c.p.produtos.ProdutosApplication       : No active profile set, falling back to default profiles: default
+2021-02-05 22:12:42.514  INFO 12456 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-02-05 22:12:42.533  INFO 12456 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 17 ms. Found 1 MongoDB repository interfaces.
+2021-02-05 22:12:42.608  INFO 12456 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8088 (http)
+2021-02-05 22:12:42.609  INFO 12456 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-02-05 22:12:42.609  INFO 12456 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-02-05 22:12:42.637  INFO 12456 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-02-05 22:12:42.638  INFO 12456 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 303 ms
+2021-02-05 22:12:42.687  INFO 12456 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-05 22:12:42.713  WARN 12456 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-02-05 22:12:42.720  INFO 12456 --- [restartedMain] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-02-05 22:12:42.739  INFO 12456 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-02-05 22:12:42.770  INFO 12456 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8088 (http) with context path ''
+2021-02-05 22:12:42.772  INFO 12456 --- [restartedMain] b.c.p.produtos.ProdutosApplication       : Started ProdutosApplication in 0.475 seconds (JVM running for 9971.138)

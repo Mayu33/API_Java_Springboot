@@ -1,11 +1,24 @@
 package br.com.projeto.produtos.service;
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+import java.sql.SQLException;
+import java.util.List;
+import java.util.Optional;
 
-import br.com.projeto.produtos.controller.ProdutoController;
+import org.springframework.stereotype.Service;
 
-public class ProdutoService {
+import br.com.projeto.produtos.model.Produto;
 
-	private final static Logger LOGGER = LoggerFactory.getLogger(ProdutoService.class);
+@Service
+public interface ProdutoService {
+
+	
+	public Produto save(Produto produto) throws SQLException;
+	
+	public void deleteById(Long id) throws SQLException;
+	
+	public Optional<Produto> findById(Long idProduto) throws SQLException;
+		
+	public List<Produto> list() throws SQLException;
+	
+	
 }
