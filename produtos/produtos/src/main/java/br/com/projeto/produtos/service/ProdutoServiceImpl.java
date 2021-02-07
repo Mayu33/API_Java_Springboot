@@ -7,6 +7,10 @@ import java.util.Optional;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.PageRequest;
+import org.springframework.data.domain.Pageable;
+import org.springframework.data.domain.Sort.Direction;
 import org.springframework.stereotype.Service;
 
 import br.com.projeto.produtos.controller.ProdutoController;
@@ -41,9 +45,10 @@ public class ProdutoServiceImpl implements ProdutoService{
 	}
 
 	@Override
-	public List<ProdutoDto> list() throws SQLException {
+	public Page<ProdutoDto> list(Pageable paginacao) throws SQLException {
 		
-		List<ProdutoDto> produtos = ProdutoDto.converterList(repository.findAll());
+		Page<Produto> paginado = repository.findAll(paginacao);
+		Page<ProdutoDto> produtos = ProdutoDto.converterList(paginado);
 		return produtos;
 	}
 	

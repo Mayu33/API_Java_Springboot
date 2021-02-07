@@ -5,7 +5,7 @@ import java.util.List;
 import java.util.Optional;
 import java.util.stream.Collectors;
 
-
+import org.springframework.data.domain.Page;
 
 import br.com.projeto.produtos.model.Produto;
 
@@ -40,8 +40,8 @@ public class ProdutoDto {
 		this.valor = valor;
 	}
 	
-	public static List<ProdutoDto> converterList(List<Produto> produto) {
-		return produto.stream().map(ProdutoDto::new).collect(Collectors.toList());
+	public static Page<ProdutoDto> converterList(Page<Produto> produto) {
+		return produto.map(ProdutoDto::new);
 	}
 	
 	public static List<ProdutoDto> converterOpt(Optional<Produto> produto) {

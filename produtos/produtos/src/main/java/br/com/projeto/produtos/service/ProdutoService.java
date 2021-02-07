@@ -4,6 +4,8 @@ import java.sql.SQLException;
 import java.util.List;
 import java.util.Optional;
 
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 
 import br.com.projeto.produtos.controller.dto.ProdutoDto;
@@ -19,7 +21,7 @@ public interface ProdutoService {
 	
 	public List<ProdutoDto> findById(String idProduto) throws SQLException;
 		
-	public List<ProdutoDto> list() throws SQLException;
+	public Page<ProdutoDto> list(Pageable paginacao) throws SQLException;
 
 	public ProdutoDto update(String id, Produto p) throws SQLException;
 	
