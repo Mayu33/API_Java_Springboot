@@ -1563,3 +1563,211 @@ Caused by: java.net.ConnectException: Connection refused: no further information
 2021-02-06 22:41:03.470 DEBUG 23304 --- [http-nio-8088-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
 2021-02-06 22:41:03.470 DEBUG 23304 --- [http-nio-8088-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[br.com.projeto.produtos.controller.dto.ProdutoDto@3b805a9d, br.com.projeto.produtos.controller.dto. (truncated)...]
 2021-02-06 22:41:03.472 DEBUG 23304 --- [http-nio-8088-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2021-02-06 22:46:46.520  INFO 23304 --- [Thread-123] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-06 22:46:46.521  INFO 23304 --- [Thread-123] org.mongodb.driver.connection            : Closed connection [connectionId{localValue:93, serverValue:60}] to localhost:27017 because the pool has been closed.
+2021-02-06 22:46:46.618  INFO 23304 --- [restartedMain] b.c.p.produtos.ProdutosApplication       : Starting ProdutosApplication using Java 15.0.1 on Alex-Mayara with PID 23304 (C:\Compasso\API_Java_Springboot\produtos\produtos\target\classes started by PC in C:\Compasso\API_Java_Springboot\produtos\produtos)
+2021-02-06 22:46:46.618  INFO 23304 --- [restartedMain] b.c.p.produtos.ProdutosApplication       : No active profile set, falling back to default profiles: default
+2021-02-06 22:46:46.767  INFO 23304 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-02-06 22:46:46.780  INFO 23304 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 12 ms. Found 1 MongoDB repository interfaces.
+2021-02-06 22:46:46.836  INFO 23304 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8088 (http)
+2021-02-06 22:46:46.837  INFO 23304 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-02-06 22:46:46.837  INFO 23304 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-02-06 22:46:46.865  INFO 23304 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-02-06 22:46:46.865  INFO 23304 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 245 ms
+2021-02-06 22:46:46.880  INFO 23304 --- [restartedMain] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-02-06 22:46:46.892  INFO 23304 --- [cluster-rtt-ClusterId{value='601f4686bc88222b69cfa6ef', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:95, serverValue:62}] to localhost:27017
+2021-02-06 22:46:46.892  INFO 23304 --- [cluster-ClusterId{value='601f4686bc88222b69cfa6ef', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:94, serverValue:61}] to localhost:27017
+2021-02-06 22:46:46.892  INFO 23304 --- [cluster-ClusterId{value='601f4686bc88222b69cfa6ef', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=2, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=null, roundTripTimeNanos=5816500}
+2021-02-06 22:46:46.899  INFO 23304 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-02-06 22:46:46.969 DEBUG 23304 --- [restartedMain] .h.v.m.ResourceBundleMessageInterpolator : Loaded expression factory via original TCCL
+2021-02-06 22:46:46.970 DEBUG 23304 --- [restartedMain] o.h.v.i.e.AbstractConfigurationImpl      : Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2021-02-06 22:46:46.970 DEBUG 23304 --- [restartedMain] o.h.v.i.e.AbstractConfigurationImpl      : Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2021-02-06 22:46:46.970 DEBUG 23304 --- [restartedMain] o.h.v.i.e.AbstractConfigurationImpl      : Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+2021-02-06 22:46:46.971 DEBUG 23304 --- [restartedMain] o.h.v.i.xml.config.ValidationXmlParser   : Trying to load META-INF/validation.xml for XML based Validator configuration.
+2021-02-06 22:46:46.972 DEBUG 23304 --- [restartedMain] o.h.v.i.xml.config.ResourceLoaderHelper  : Trying to load META-INF/validation.xml via user class loader
+2021-02-06 22:46:46.972 DEBUG 23304 --- [restartedMain] o.h.v.i.xml.config.ResourceLoaderHelper  : Trying to load META-INF/validation.xml via TCCL
+2021-02-06 22:46:46.973 DEBUG 23304 --- [restartedMain] o.h.v.i.xml.config.ResourceLoaderHelper  : Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2021-02-06 22:46:46.973 DEBUG 23304 --- [restartedMain] o.h.v.i.xml.config.ValidationXmlParser   : No META-INF/validation.xml found. Using annotation based configuration only.
+2021-02-06 22:46:46.975 DEBUG 23304 --- [restartedMain] o.h.v.i.e.resolver.TraversableResolvers  : Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2021-02-06 22:46:46.977 DEBUG 23304 --- [restartedMain] .i.e.ValidatorFactoryConfigurationHelper : HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
+2021-02-06 22:46:46.977 DEBUG 23304 --- [restartedMain] .i.e.ValidatorFactoryConfigurationHelper : HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2021-02-06 22:46:46.977 DEBUG 23304 --- [restartedMain] .i.e.ValidatorFactoryConfigurationHelper : HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2021-02-06 22:46:46.978 DEBUG 23304 --- [restartedMain] .i.e.ValidatorFactoryConfigurationHelper : HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2021-02-06 22:46:46.978 DEBUG 23304 --- [restartedMain] .i.e.ValidatorFactoryConfigurationHelper : HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2021-02-06 22:46:46.978 DEBUG 23304 --- [restartedMain] .i.e.ValidatorFactoryConfigurationHelper : HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2021-02-06 22:46:47.015  INFO 23304 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-06 22:46:47.017 DEBUG 23304 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2021-02-06 22:46:47.024 DEBUG 23304 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 7 mappings in 'requestMappingHandlerMapping'
+2021-02-06 22:46:47.033 DEBUG 23304 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2021-02-06 22:46:47.036 DEBUG 23304 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2021-02-06 22:46:47.040  WARN 23304 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-02-06 22:46:47.062  INFO 23304 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8088 (http) with context path ''
+2021-02-06 22:46:47.065  INFO 23304 --- [restartedMain] b.c.p.produtos.ProdutosApplication       : Started ProdutosApplication in 0.476 seconds (JVM running for 5832.533)
+2021-02-06 22:46:47.067  INFO 23304 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-02-06 22:46:48.552  INFO 23304 --- [Thread-128] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-06 22:46:48.646  INFO 23304 --- [restartedMain] b.c.p.produtos.ProdutosApplication       : Starting ProdutosApplication using Java 15.0.1 on Alex-Mayara with PID 23304 (C:\Compasso\API_Java_Springboot\produtos\produtos\target\classes started by PC in C:\Compasso\API_Java_Springboot\produtos\produtos)
+2021-02-06 22:46:48.647  INFO 23304 --- [restartedMain] b.c.p.produtos.ProdutosApplication       : No active profile set, falling back to default profiles: default
+2021-02-06 22:46:48.809  INFO 23304 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-02-06 22:46:48.819  INFO 23304 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10 ms. Found 1 MongoDB repository interfaces.
+2021-02-06 22:46:48.868  INFO 23304 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8088 (http)
+2021-02-06 22:46:48.869  INFO 23304 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-02-06 22:46:48.869  INFO 23304 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-02-06 22:46:48.899  INFO 23304 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-02-06 22:46:48.899  INFO 23304 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 249 ms
+2021-02-06 22:46:48.912  INFO 23304 --- [restartedMain] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-02-06 22:46:48.921  INFO 23304 --- [cluster-rtt-ClusterId{value='601f4688bc88222b69cfa6f0', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:97, serverValue:63}] to localhost:27017
+2021-02-06 22:46:48.921  INFO 23304 --- [cluster-ClusterId{value='601f4688bc88222b69cfa6f0', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:96, serverValue:64}] to localhost:27017
+2021-02-06 22:46:48.921  INFO 23304 --- [cluster-ClusterId{value='601f4688bc88222b69cfa6f0', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=2, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=null, roundTripTimeNanos=4654400}
+2021-02-06 22:46:48.929  INFO 23304 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-02-06 22:46:48.943 DEBUG 23304 --- [restartedMain] .h.v.m.ResourceBundleMessageInterpolator : Loaded expression factory via original TCCL
+2021-02-06 22:46:48.943 DEBUG 23304 --- [restartedMain] o.h.v.i.e.AbstractConfigurationImpl      : Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2021-02-06 22:46:48.943 DEBUG 23304 --- [restartedMain] o.h.v.i.e.AbstractConfigurationImpl      : Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2021-02-06 22:46:48.943 DEBUG 23304 --- [restartedMain] o.h.v.i.e.AbstractConfigurationImpl      : Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+2021-02-06 22:46:48.944 DEBUG 23304 --- [restartedMain] o.h.v.i.xml.config.ValidationXmlParser   : Trying to load META-INF/validation.xml for XML based Validator configuration.
+2021-02-06 22:46:48.944 DEBUG 23304 --- [restartedMain] o.h.v.i.xml.config.ResourceLoaderHelper  : Trying to load META-INF/validation.xml via user class loader
+2021-02-06 22:46:48.944 DEBUG 23304 --- [restartedMain] o.h.v.i.xml.config.ResourceLoaderHelper  : Trying to load META-INF/validation.xml via TCCL
+2021-02-06 22:46:48.944 DEBUG 23304 --- [restartedMain] o.h.v.i.xml.config.ResourceLoaderHelper  : Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2021-02-06 22:46:48.944 DEBUG 23304 --- [restartedMain] o.h.v.i.xml.config.ValidationXmlParser   : No META-INF/validation.xml found. Using annotation based configuration only.
+2021-02-06 22:46:48.945 DEBUG 23304 --- [restartedMain] o.h.v.i.e.resolver.TraversableResolvers  : Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2021-02-06 22:46:48.946 DEBUG 23304 --- [restartedMain] .i.e.ValidatorFactoryConfigurationHelper : HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
+2021-02-06 22:46:48.946 DEBUG 23304 --- [restartedMain] .i.e.ValidatorFactoryConfigurationHelper : HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2021-02-06 22:46:48.946 DEBUG 23304 --- [restartedMain] .i.e.ValidatorFactoryConfigurationHelper : HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2021-02-06 22:46:48.946 DEBUG 23304 --- [restartedMain] .i.e.ValidatorFactoryConfigurationHelper : HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2021-02-06 22:46:48.947 DEBUG 23304 --- [restartedMain] .i.e.ValidatorFactoryConfigurationHelper : HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2021-02-06 22:46:48.947 DEBUG 23304 --- [restartedMain] .i.e.ValidatorFactoryConfigurationHelper : HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2021-02-06 22:46:48.968  INFO 23304 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-06 22:46:48.969 DEBUG 23304 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2021-02-06 22:46:48.974 DEBUG 23304 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 7 mappings in 'requestMappingHandlerMapping'
+2021-02-06 22:46:48.981 DEBUG 23304 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2021-02-06 22:46:48.984 DEBUG 23304 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2021-02-06 22:46:48.988  WARN 23304 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-02-06 22:46:49.004  INFO 23304 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8088 (http) with context path ''
+2021-02-06 22:46:49.006  INFO 23304 --- [restartedMain] b.c.p.produtos.ProdutosApplication       : Started ProdutosApplication in 0.388 seconds (JVM running for 5834.474)
+2021-02-06 22:46:49.007  INFO 23304 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-02-06 22:49:49.895  INFO 21108 --- [restartedMain] b.c.p.produtos.ProdutosApplication       : Starting ProdutosApplication using Java 15.0.1 on Alex-Mayara with PID 21108 (C:\Compasso\API_Java_Springboot\produtos\produtos\target\classes started by PC in C:\Compasso\API_Java_Springboot\produtos\produtos)
+2021-02-06 22:49:49.899  INFO 21108 --- [restartedMain] b.c.p.produtos.ProdutosApplication       : No active profile set, falling back to default profiles: default
+2021-02-06 22:49:49.899 DEBUG 21108 --- [background-preinit] o.h.v.i.xml.config.ValidationXmlParser   : Trying to load META-INF/validation.xml for XML based Validator configuration.
+2021-02-06 22:49:49.902 DEBUG 21108 --- [background-preinit] o.h.v.i.xml.config.ResourceLoaderHelper  : Trying to load META-INF/validation.xml via TCCL
+2021-02-06 22:49:49.902 DEBUG 21108 --- [background-preinit] o.h.v.i.xml.config.ResourceLoaderHelper  : Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2021-02-06 22:49:49.903 DEBUG 21108 --- [background-preinit] o.h.v.i.xml.config.ValidationXmlParser   : No META-INF/validation.xml found. Using annotation based configuration only.
+2021-02-06 22:49:49.907 DEBUG 21108 --- [background-preinit] o.h.v.i.e.resolver.TraversableResolvers  : Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2021-02-06 22:49:49.953 DEBUG 21108 --- [background-preinit] .h.v.m.ResourceBundleMessageInterpolator : Loaded expression factory via original TCCL
+2021-02-06 22:49:49.991  INFO 21108 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-02-06 22:49:49.991  INFO 21108 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-02-06 22:49:50.166 DEBUG 21108 --- [background-preinit] .i.e.ValidatorFactoryConfigurationHelper : HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
+2021-02-06 22:49:50.178 DEBUG 21108 --- [background-preinit] .i.e.ValidatorFactoryConfigurationHelper : HV000234: Using org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2021-02-06 22:49:50.179 DEBUG 21108 --- [background-preinit] .i.e.ValidatorFactoryConfigurationHelper : HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2021-02-06 22:49:50.180 DEBUG 21108 --- [background-preinit] .i.e.ValidatorFactoryConfigurationHelper : HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2021-02-06 22:49:50.181 DEBUG 21108 --- [background-preinit] .i.e.ValidatorFactoryConfigurationHelper : HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2021-02-06 22:49:50.181 DEBUG 21108 --- [background-preinit] .i.e.ValidatorFactoryConfigurationHelper : HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2021-02-06 22:49:51.458  INFO 21108 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-02-06 22:49:51.545  INFO 21108 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 82 ms. Found 1 MongoDB repository interfaces.
+2021-02-06 22:49:52.387  INFO 21108 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8088 (http)
+2021-02-06 22:49:52.401  INFO 21108 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-02-06 22:49:52.402  INFO 21108 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-02-06 22:49:52.524  INFO 21108 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-02-06 22:49:52.525  INFO 21108 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2532 ms
+2021-02-06 22:49:52.775  INFO 21108 --- [restartedMain] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-02-06 22:49:52.884  INFO 21108 --- [cluster-rtt-ClusterId{value='601f4740c3f5a56c1fa9bc69', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:65}] to localhost:27017
+2021-02-06 22:49:52.884  INFO 21108 --- [cluster-ClusterId{value='601f4740c3f5a56c1fa9bc69', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:66}] to localhost:27017
+2021-02-06 22:49:52.885  INFO 21108 --- [cluster-ClusterId{value='601f4740c3f5a56c1fa9bc69', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=2, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=null, roundTripTimeNanos=35494800}
+2021-02-06 22:49:53.058  INFO 21108 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-02-06 22:49:53.755 DEBUG 21108 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 10 mappings in 'requestMappingHandlerMapping'
+2021-02-06 22:49:53.873  INFO 21108 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-02-06 22:49:53.906 DEBUG 21108 --- [restartedMain] .h.v.m.ResourceBundleMessageInterpolator : Loaded expression factory via original TCCL
+2021-02-06 22:49:53.909 DEBUG 21108 --- [restartedMain] o.h.v.i.e.AbstractConfigurationImpl      : Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2021-02-06 22:49:53.910 DEBUG 21108 --- [restartedMain] o.h.v.i.e.AbstractConfigurationImpl      : Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2021-02-06 22:49:53.911 DEBUG 21108 --- [restartedMain] o.h.v.i.e.AbstractConfigurationImpl      : Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+2021-02-06 22:49:53.913 DEBUG 21108 --- [restartedMain] o.h.v.i.xml.config.ValidationXmlParser   : Trying to load META-INF/validation.xml for XML based Validator configuration.
+2021-02-06 22:49:53.913 DEBUG 21108 --- [restartedMain] o.h.v.i.xml.config.ResourceLoaderHelper  : Trying to load META-INF/validation.xml via user class loader
+2021-02-06 22:49:53.914 DEBUG 21108 --- [restartedMain] o.h.v.i.xml.config.ResourceLoaderHelper  : Trying to load META-INF/validation.xml via TCCL
+2021-02-06 22:49:53.915 DEBUG 21108 --- [restartedMain] o.h.v.i.xml.config.ResourceLoaderHelper  : Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2021-02-06 22:49:53.916 DEBUG 21108 --- [restartedMain] o.h.v.i.xml.config.ValidationXmlParser   : No META-INF/validation.xml found. Using annotation based configuration only.
+2021-02-06 22:49:53.917 DEBUG 21108 --- [restartedMain] o.h.v.i.e.resolver.TraversableResolvers  : Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2021-02-06 22:49:53.920 DEBUG 21108 --- [restartedMain] .i.e.ValidatorFactoryConfigurationHelper : HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
+2021-02-06 22:49:53.921 DEBUG 21108 --- [restartedMain] .i.e.ValidatorFactoryConfigurationHelper : HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2021-02-06 22:49:53.921 DEBUG 21108 --- [restartedMain] .i.e.ValidatorFactoryConfigurationHelper : HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2021-02-06 22:49:53.922 DEBUG 21108 --- [restartedMain] .i.e.ValidatorFactoryConfigurationHelper : HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2021-02-06 22:49:53.922 DEBUG 21108 --- [restartedMain] .i.e.ValidatorFactoryConfigurationHelper : HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2021-02-06 22:49:53.922 DEBUG 21108 --- [restartedMain] .i.e.ValidatorFactoryConfigurationHelper : HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2021-02-06 22:49:54.046  INFO 21108 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-06 22:49:54.067 DEBUG 21108 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2021-02-06 22:49:54.145 DEBUG 21108 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2021-02-06 22:49:54.159 DEBUG 21108 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2021-02-06 22:49:54.211  WARN 21108 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-02-06 22:49:54.371  INFO 21108 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8088 (http) with context path ''
+2021-02-06 22:49:54.373  INFO 21108 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-02-06 22:49:54.403  INFO 21108 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-02-06 22:49:54.494  INFO 21108 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-02-06 22:49:54.739  INFO 21108 --- [restartedMain] b.c.p.produtos.ProdutosApplication       : Started ProdutosApplication in 5.397 seconds (JVM running for 6.104)
+2021-02-06 22:51:04.216  INFO 21108 --- [http-nio-8088-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-02-06 22:51:04.216  INFO 21108 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-02-06 22:51:04.217 DEBUG 21108 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2021-02-06 22:51:04.217 DEBUG 21108 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2021-02-06 22:51:04.217 DEBUG 21108 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2021-02-06 22:51:04.218 DEBUG 21108 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@321ae25d
+2021-02-06 22:51:04.218 DEBUG 21108 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@1529d333
+2021-02-06 22:51:04.218 DEBUG 21108 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2021-02-06 22:51:04.219  INFO 21108 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2021-02-06 22:51:04.230 DEBUG 21108 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/swagger/index.html", parameters={}
+2021-02-06 22:51:04.239 DEBUG 21108 --- [http-nio-8088-exec-1] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/], ServletContext resource [/]]
+2021-02-06 22:51:04.244 DEBUG 21108 --- [http-nio-8088-exec-1] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2021-02-06 22:51:04.245 DEBUG 21108 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2021-02-06 22:51:04.250 DEBUG 21108 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2021-02-06 22:51:04.252 DEBUG 21108 --- [http-nio-8088-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#errorHtml(HttpServletRequest, HttpServletResponse)
+2021-02-06 22:51:04.293 DEBUG 21108 --- [http-nio-8088-exec-1] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, text/html;q=0.8]
+2021-02-06 22:51:04.298 DEBUG 21108 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2021-02-06 22:51:04.397 DEBUG 21108 --- [http-nio-8088-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/favicon.ico", parameters={}
+2021-02-06 22:51:04.399 DEBUG 21108 --- [http-nio-8088-exec-2] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/], ServletContext resource [/]]
+2021-02-06 22:51:04.402 DEBUG 21108 --- [http-nio-8088-exec-2] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2021-02-06 22:51:04.403 DEBUG 21108 --- [http-nio-8088-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2021-02-06 22:51:04.403 DEBUG 21108 --- [http-nio-8088-exec-2] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2021-02-06 22:51:04.404 DEBUG 21108 --- [http-nio-8088-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2021-02-06 22:51:04.425 DEBUG 21108 --- [http-nio-8088-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json;q=0.8', given [image/avif, image/webp, image/apng, image/svg+xml, image/*, */*;q=0.8] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-02-06 22:51:04.427 DEBUG 21108 --- [http-nio-8088-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Sat Feb 06 22:51:04 BRT 2021, status=404, error=Not Found, message=No message available,  (truncated)...]
+2021-02-06 22:51:04.473 DEBUG 21108 --- [http-nio-8088-exec-2] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2021-02-06 22:52:04.786 DEBUG 21108 --- [http-nio-8088-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/swagger-ui.html", parameters={}
+2021-02-06 22:52:04.788 DEBUG 21108 --- [http-nio-8088-exec-4] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/], ServletContext resource [/]]
+2021-02-06 22:52:04.794 DEBUG 21108 --- [http-nio-8088-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2021-02-06 22:52:04.831 DEBUG 21108 --- [http-nio-8088-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/webjars/springfox-swagger-ui/css/typography.css", parameters={}
+2021-02-06 22:52:04.833 DEBUG 21108 --- [http-nio-8088-exec-5] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [class path resource [META-INF/resources/webjars/]]
+2021-02-06 22:52:04.833 DEBUG 21108 --- [http-nio-8088-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/webjars/springfox-swagger-ui/css/reset.css", parameters={}
+2021-02-06 22:52:04.835 DEBUG 21108 --- [http-nio-8088-exec-6] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [class path resource [META-INF/resources/webjars/]]
+2021-02-06 22:52:04.835 DEBUG 21108 --- [http-nio-8088-exec-5] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2021-02-06 22:52:04.836 DEBUG 21108 --- [http-nio-8088-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2021-02-06 22:52:04.836 DEBUG 21108 --- [http-nio-8088-exec-5] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2021-02-06 22:52:04.838 DEBUG 21108 --- [http-nio-8088-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2021-02-06 22:52:04.841 DEBUG 21108 --- [http-nio-8088-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json;q=0.1', given [text/css, */*;q=0.1] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-02-06 22:52:04.842 DEBUG 21108 --- [http-nio-8088-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Sat Feb 06 22:52:04 BRT 2021, status=404, error=Not Found, message=No message available,  (truncated)...]
+2021-02-06 22:52:04.845 DEBUG 21108 --- [http-nio-8088-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2021-02-06 22:52:04.846 DEBUG 21108 --- [http-nio-8088-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/webjars/springfox-swagger-ui/css/screen.css", parameters={}
+2021-02-06 22:52:04.847 DEBUG 21108 --- [http-nio-8088-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/webjars/springfox-swagger-ui/lib/object-assign-pollyfill.js", parameters={}
+2021-02-06 22:52:04.848 DEBUG 21108 --- [http-nio-8088-exec-7] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [class path resource [META-INF/resources/webjars/]]
+2021-02-06 22:52:04.848 DEBUG 21108 --- [http-nio-8088-exec-8] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [class path resource [META-INF/resources/webjars/]]
+2021-02-06 22:52:04.849 DEBUG 21108 --- [http-nio-8088-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/webjars/springfox-swagger-ui/lib/jquery-1.8.0.min.js", parameters={}
+2021-02-06 22:52:04.851 DEBUG 21108 --- [http-nio-8088-exec-9] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [class path resource [META-INF/resources/webjars/]]
+2021-02-06 22:52:04.851 DEBUG 21108 --- [http-nio-8088-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/webjars/springfox-swagger-ui/lib/jquery.wiggle.min.js", parameters={}
+2021-02-06 22:52:04.845 DEBUG 21108 --- [http-nio-8088-exec-5] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2021-02-06 22:52:04.853 DEBUG 21108 --- [http-nio-8088-exec-6] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [class path resource [META-INF/resources/webjars/]]
+2021-02-06 22:52:04.853 DEBUG 21108 --- [http-nio-8088-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/webjars/springfox-swagger-ui/lib/jquery.slideto.min.js", parameters={}
+2021-02-06 22:52:04.855 DEBUG 21108 --- [http-nio-8088-exec-10] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [class path resource [META-INF/resources/webjars/]]
+2021-02-06 22:52:04.858 DEBUG 21108 --- [http-nio-8088-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2021-02-06 22:52:04.858 DEBUG 21108 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/webjars/springfox-swagger-ui/lib/jquery.ba-bbq.min.js", parameters={}
+2021-02-06 22:52:04.861 DEBUG 21108 --- [http-nio-8088-exec-1] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [class path resource [META-INF/resources/webjars/]]
+2021-02-06 22:52:04.863 DEBUG 21108 --- [http-nio-8088-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2021-02-06 22:52:04.863 DEBUG 21108 --- [http-nio-8088-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/webjars/springfox-swagger-ui/lib/handlebars-4.0.5.js", parameters={}
+2021-02-06 22:52:04.864 DEBUG 21108 --- [http-nio-8088-exec-2] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [class path resource [META-INF/resources/webjars/]]
+2021-02-06 22:52:04.866 DEBUG 21108 --- [http-nio-8088-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/webjars/springfox-swagger-ui/lib/lodash.min.js", parameters={}
+2021-02-06 22:52:04.868 DEBUG 21108 --- [http-nio-8088-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2021-02-06 22:52:04.868 DEBUG 21108 --- [http-nio-8088-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2021-02-06 22:52:04.869 DEBUG 21108 --- [http-nio-8088-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2021-02-06 22:52:04.872 DEBUG 21108 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2021-02-06 22:52:04.874 DEBUG 21108 --- [http-nio-8088-exec-7] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [class path resource [META-INF/resources/webjars/]]
+2021-02-06 22:52:04.876 DEBUG 21108 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/webjars/springfox-swagger-ui/lib/backbone-min.js", parameters={}
+2021-02-06 22:52:04.878 DEBUG 21108 --- [http-nio-8088-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/webjars/springfox-swagger-ui/lib/highlight.9.1.0.pack.js", parameters={}
+2021-02-06 22:52:04.878 DEBUG 21108 --- [http-nio-8088-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2021-02-06 22:52:04.879 DEBUG 21108 --- [http-nio-8088-exec-4] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [class path resource [META-INF/resources/webjars/]]
+2021-02-06 22:52:04.880 DEBUG 21108 --- [http-nio-8088-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/webjars/springfox-swagger-ui/lib/highlight.9.1.0.pack_extended.js", parameters={}
+2021-02-06 22:52:04.878 DEBUG 21108 --- [http-nio-8088-exec-1] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [class path resource [META-INF/resources/webjars/]]
+2021-02-06 22:52:04.880 DEBUG 21108 --- [http-nio-8088-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/webjars/springfox-swagger-ui/lib/jsoneditor.min.js", parameters={}
+2021-02-06 22:52:04.879 DEBUG 21108 --- [http-nio-8088-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/webjars/springfox-swagger-ui/swagger-ui.min.js", parameters={}
